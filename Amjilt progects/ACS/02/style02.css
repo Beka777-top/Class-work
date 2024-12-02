@@ -1,0 +1,38 @@
+body
+{
+    background-color: aqua;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr );
+    gap: 10px;
+    padding: 30px;
+}
+.card
+{
+    background-color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+.card h1
+{
+    font-size: 1em;
+}
+.card p{
+    font-size: 0.7 em;
+}
+.card img
+{
+    width: 100%;
+}
+@media (max-width: 400px )
+{
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card
+    {
+       font-size: 16px ;
+    }
+}

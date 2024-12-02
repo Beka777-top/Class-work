@@ -1,0 +1,22 @@
+.one
+{
+  
+    text-align: center;
+    padding: 6px;
+
+}
+.one, th
+{
+    background-color: orange;
+    border: 2px green solid;
+}
+.one, td
+{
+    border: 2px green solid;
+}
+
+.two, td, th
+{
+border: 2px black solid ;
+padding: 8px;
+}

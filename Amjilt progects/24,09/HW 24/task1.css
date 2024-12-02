@@ -1,0 +1,14 @@
+.div1
+{
+    padding: 100px;
+    background-color: rgb(218, 219, 220);
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.div2
+{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}

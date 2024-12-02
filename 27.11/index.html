@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var city = ["Astana", "Almaty", "Shimkent", "Aktay", "Atyray"];
+        city [3] = "Semey" 
+        console.log(city);
+        console.log(city.length);
+
+        console.log(city[2]);
+        console.log(city[city.length - 1]); //соңғы элементы корсетеды
+
+        city.push("Oral", "Kostanay"); // Артына элемент қосады
+        console.log(city);
+
+        city.unshift("Karagandi", "Pavladar", "Kokshetay"); // алдына элемент қосады
+        console.log(city); 
+
+        city.pop(); // Соңындағы элеметы алып тастайды
+        console.log(city);
+
+        city.shift(); // алдындағы элемены алып тастайдыn
+        console.log(city);
+
+        city.splice(2, 3);//2 элементен бастап 3 элемент алып тастайды
+        console.log(city);
+
+        city.splice(1, 3, "Taraz", "Oskemen");
+        console.log(city);// 1ден бастап 3 элемент алып тастайды және оның орнына қосады
+
+        city.slice(3, 0, "Taldikorgan");//3 элементен кейін қосады
+        console.log(city);
+
+        city.reverse();
+        console.log(city);// керісінше шығады
+
+        let numbers = [8, 3, 1, 6, 4, 9, 2];
+        console.log(numbers);
+
+        numbers.sort((a, b) => a - b);
+        console.log(numbers);
+
+        numbers.sort((a, b) => b - a);
+        console.log(numbers);
+
+        let copy = numbers.slice();
+        console.log(copy);
+
+        let slice1 = numbers.slice(2);
+        console.log(slice1);
+
+        let slice2 = numbers.slice(2, 5);
+        console.log(slice2);
+        
+    let a = "aibek";
+    let b = a;
+    console.log(a);
+    console.log(b);
+    b = "temir"
+    console.log(a);
+    console.log(b);
+    a = "berik";
+    console.log(a);
+    console.log(b);
+    b = a;
+    console.log(a);
+    console.log(b);
+
+
+
+    // let num1 = [1, 2, 3, 4];
+    // let num2 = num1;
+    // num2.push(5);
+    // console.log(num1);
+    // console.log(num2);
+
+    // let numb = [2, 5, 6, 9, 7, 8];
+    // let isInArray = numb.includes(+prompt("san"));
+    // if(numb.includes(isInArray)){
+    //     alert("san tabildi")
+    // }else{
+    //     alert("san tabilmadi")
+    // } // qate
+
+
+        let kala = ["Almaty", "Karagandi", "Atyray", "Aktay"];
+        let ind = kala.indexOf();
+        let question =prompt("kala jaz")
+        if (kala.indexOf(question) >=0){
+            alert("city found");
+        }else{
+            alert("city not found")
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+*
+{
+    margin: auto;
+    padding: auto;
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 80px;
+}
+.link
+{
+    color: white;
+    text-decoration-line: none;
+    font-size: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+.linkk
+{
+    color: white;
+    text-decoration-line: none;
+    font-size: 40px;
+    justify-content: center;
+    margin: 10px;
+}
+.search
+{
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+}
+.Sidebar
+{
+    background-color: rgb(134, 134, 134);
+    padding: 30px;
+    border-radius: 5px;
+    width: 400px;
+ 
+
+
+}
+.mainn
+{
+    background-color: rgb(239, 233, 233);
+    height: 500px;
+    width: 600px;
+    border-radius: 5px;
+    margin: 20px;
+}
+article
+{
+    display: flex;
+    align-items: start;
+}

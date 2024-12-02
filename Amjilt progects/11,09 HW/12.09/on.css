@@ -1,0 +1,17 @@
+.one:link
+{
+    color: rgb(228, 23, 23);
+}
+.one:hover
+{
+    color: green;
+}
+.img
+{
+  border: 5px black solid;  
+  border-radius: 25px;
+  box-shadow: 7px 4px black;
+  height: 200px;
+  width: 300px;
+  box-shadow: 10px 5px 5px red;
+}

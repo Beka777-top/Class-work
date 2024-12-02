@@ -1,0 +1,42 @@
+.one
+{
+    background-color: rgb(198, 198, 199);
+    padding: 10px;
+    width: fit-content;
+    border: 3px black solid;
+}
+.two
+{
+    background-color: rgb(202, 202, 205);
+    margin: 50px;
+    padding: 10px;
+    width: fit-content;
+    border: 3px black solid ;
+} 
+.div
+{
+    padding-left:150px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo
+{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-right: 50px;
+
+}
+.three
+{
+    width: 800px;
+    height: 90px;
+    font-size: 30px;
+}
+.four
+{
+    width: fit-content;
+    height: 90px;
+    font-size: 30px;
+}

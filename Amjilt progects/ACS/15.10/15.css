@@ -1,0 +1,78 @@
+*
+{
+    padding: 0%;
+    margin: auto;
+}
+:root{
+    --primary-bg-color:rgb(131, 131, 255);
+    --tweet-bg-color:white;
+    --padding: 15px;
+    --text-color:black;
+    --small-text-color:grey;
+    --avatar-size: 80px;
+    --icon-size: 50px;
+}
+body{
+    background-color: var(--primary-bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avatar
+{
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border-radius: 100%;
+}
+.conteiner
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-height: calc(100vh - 160px);
+    background: var(--tweet-bg-color);
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.icon
+{
+    width: var(--icon-size);
+    height: var(--icon-size);
+    padding: var(--padding);
+}
+.day
+{
+    color: var(--small-text-color);
+}
+.headerr p{
+    color: var(--small-text-color);
+}
+.lorem
+{
+    font-weight: 700;
+}
+.sob
+{
+    color: blueviolet;
+    font-size: 15px;
+}
+.header-twitter
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background: #000;
+    color: aliceblue;
+    display: block;
+    height: 90px
+}
+header
+{
+    background: #000;
+    color: aliceblue;
+    display: block;
+    height: 90px;
+}

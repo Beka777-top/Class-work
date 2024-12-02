@@ -1,0 +1,52 @@
+.conteiner
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:150px 350px 350px 350px ;
+    grid-template-areas: "headerr headerr headerr headerr"
+    "navv Post Post ul"
+    "Footer Footer Footer Footer";
+    gap: 10px;
+    padding: 20px;
+}
+.headerr
+{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    grid-area: headerr;
+}
+.navv
+{
+    background-color: rgb(240, 125, 144);
+    grid-area:navv;
+}
+.link
+{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+}
+.link:hover
+{
+    background-color: black;
+    border-radius: 5px;
+    border: 2px white solid;
+}
+.Post
+{
+    background-color: greenyellow;
+    grid-area: Post;
+}
+.Footer
+{
+    background-color: grey;
+    grid-area: Footer;
+    text-align: center;
+}
+.ul
+{
+    background-color: antiquewhite;
+    grid-area: ul;
+}

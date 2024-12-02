@@ -1,0 +1,26 @@
+.edit
+{
+    text-align: center;
+}
+.img
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 999px;
+}
+.submit
+{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.input
+{
+    border: 3px black solid;
+    background-color:rgba(128, 128, 128, 0.857) ;
+    border-radius: 5px;
+}
+.input:active
+{
+    background-color: rgb(67, 171, 67);
+}

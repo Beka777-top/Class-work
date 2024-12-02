@@ -1,0 +1,26 @@
+.header
+{
+    background-color: blue;
+    grid-area: header;
+}
+.Sidebar
+{
+    background-color: brown;
+    grid-area: sidebar;
+}
+
+.conteiner
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto auto;
+    grid-template-areas: "header header header"
+    "sidebar content content";
+    gap: 10px;
+    padding: 20px;
+}
+.content
+{
+    background-color: aquamarine;
+    grid-area: content;
+}

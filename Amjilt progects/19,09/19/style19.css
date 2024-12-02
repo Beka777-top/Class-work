@@ -1,0 +1,17 @@
+.keste
+{
+    border-spacing: 0px;
+    margin-bottom: 55px;
+}
+.keste th,td {
+    border: 1px black solid;
+    padding: 8px;
+}
+.keste, th
+{
+    background-color: orange;
+}
+.keste , td
+{
+    background-color: aqua;
+}

@@ -1,0 +1,40 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    --text-color:black;
+    --small-text-color:grey;
+    --emoji-border: 90px;
+    --conteiner-width: 200px;
+}
+.conteiner
+{
+    display: flex;
+    align-items: center;
+    margin: 180px;
+    margin-left: 30%;
+    max-width: 600px;
+    background: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.button
+{
+    background: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: var(--emoji-border);
+}
+.conteiner p 
+{
+    color: var(--small-text-color);
+}
+.conteiner h3
+{
+    font-size: 35px;
+}

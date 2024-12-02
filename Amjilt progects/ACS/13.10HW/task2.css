@@ -1,0 +1,53 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbdbdb;
+}
+.card img
+{
+    width: 150px;
+    height: 150px;
+}
+.card
+{
+    margin: 10px;
+    border-radius: 6px;
+    background: #ffffff;
+    padding: 10px;
+    text-align:center ;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.Buy
+{
+    background: #18b30a;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 30px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.Buy:hover
+{
+    background: #166303;
+}
+
+.card3 img
+{
+    width: 150px;
+    height: 150px;
+}
+.card3
+{
+    margin: 10px;
+    border-radius: 6px;
+    background: #ffffff;
+    padding: 10px;
+    text-align:center ;
+    transform: skewX(7deg);
+}

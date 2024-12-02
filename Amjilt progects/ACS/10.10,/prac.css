@@ -1,0 +1,28 @@
+.car{
+    width: 300px;
+    margin-top: 300px;
+    transform: rotateY(100deg);
+    animation: drive 5s;
+    animation-iteration-count: 1;
+}
+@keyframes drive {
+    0% {
+        transform: translate(0, 0 );
+        transform: rotate(100deg);
+    }
+    50%{
+        transform: translate(900px, -50px) rotate(0deg);
+
+    }
+    100%
+    {
+        transform: translate(0 , 0);
+    }
+}
+.squage{
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+    transform: skew(20deg);
+}

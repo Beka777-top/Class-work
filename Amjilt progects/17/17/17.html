@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17.09</title>
+</head>
+<body>
+    <label for="firstname">Атыңыз</label>
+    <input type="text" id="firstname" placeholder="осы жерге жазыңыз "><br>
+
+    <label for="lastname">Тегіңіз</label>
+    <input type="text" id="lastname" required><br>
+     <select name="subject" id="subject">
+        <option value="maths"> Математика</option>
+        <option value="physics">Физика</option>
+        <option value="sport">Спорт</option>
+    </select>
+    <br>
+<h3>Түстер:</h3>
+<label for="red">Қызыл</label>
+<input type="checkbox" id="red"> <br>
+<label for="blue"><input type="checkbox" id="blue"> Көк</label> <br>
+<label for="yellow">Сары</label>
+<input type="checkbox" id="yellow"> <br>
+<h3>Gender</h3>
+<label for="male">
+    <input type="radio" id="male" name="gender"> male
+</label>
+<label for="female">
+    <input type="radio" id="female" name="gender"> Female
+</label> <br><br>
+<input type="file">
+<br><br>
+<label for="username"> Username:</label>
+<input type="text" id="username" required pattern="[a-zA-z0-9  ]{3,10}"> <br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" required>
+<br> <br>
+
+<label for="password">Password</label>
+<input type="password" id="password" required> <br><br>
+
+<label for="age">Your age:</label>
+<input type="number" id="age" min="21" max="80" step="6"> <br><br>
+
+<input type="date"> <br><br>
+
+<input type="range"> <br><br>
+
+<input type="color"> <br><br>
+
+<label for="comments"> Comments:</label>
+<textarea name="" id="comments" cols="30" rows="5"></textarea>
+
+
+<br> <input type="submit" value="Тіркелу">
+</body>
+</html>

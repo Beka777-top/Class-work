@@ -1,0 +1,17 @@
+.conteiner1
+{
+    padding: 35px;
+    background-color: red;
+    margin: 8px;
+}
+.conteiner2
+{
+    background-color: aquamarine;
+    margin: 8px;
+}
+.conteiner3
+{
+    background-color: blueviolet;
+    margin: 100px;
+    padding: 40px;
+}

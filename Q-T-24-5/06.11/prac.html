@@ -1,0 +1,41 @@
+let name = prompt("Атыңызды жазыңыз:");
+let order = "";     
+let buketter = prompt("Букеттің түрін танданыз:" +"\n" +"A) Компазиция" +"\n" +"B) Монобукеты" +"\n" + "C)Роза"); 
+if (buketter == "A") {
+  order += "Компазиция \n";
+} else if (buketter == "B") {
+  order += " Монобукеты \n";
+} else if (buketter == "C") {
+  order += " Роза \n";
+}
+
+
+let shar = prompt("Шардын размері:" + "\n" + "A) Үлкен" + "\n" + "B) Орташа" + "\n" + "C) Кіші");
+if (shar == "A") {
+  order += " Үлкен \n";
+} else if (shar == "B") {
+  order += " Орташа \n";
+} else if (shar == "C") {
+  order += " Кіші \n";
+}
+
+
+let flower = prompt( "Гүлдің түрін таңдаңыз:" + "\n" +"A) Роза " +"\n" +"B) Пионы" + "\n" + "C) Гортензия");
+if (flower == "A") {
+  order += " Роза  \n";
+} else if ( flower== "B") {
+  order += " Пионы \n";
+} else if ( flower == "C") {
+  order += " Гортензия \n";
+}
+
+let prize = prompt( "Сыйлыктар:" +"\n" +"A) Бенто торты" +"\n" +"B) Мишка" +"\n" +"C) Клубника в шоколаде");
+if (prize == "A") {
+  order += " Бенто торты \n";
+} else if (prize == "B") {
+  order += " Мишка \n";
+} else if (prize == "C") {
+  order += " Клубника в шоколаде \n";
+}
+
+alert(order);

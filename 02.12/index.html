@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let array = [3, 5, 9, 15, 23];
+
+        function menu () {
+            let text = +prompt("welcome to my menu! \n"  + array + "1) sandar kosindisi \n 2)Arifmeticalic orta \n 3) belgili san diapozoni \n 4) Teq on sandar \n 5) Shigy" )
+        switch (text){
+            case 1 :
+                sumOfNumber(); 
+                break;
+                
+            case 2 :
+                avarage();
+                break
+            case 3 :
+                diapazone();
+                break;
+            case 4 :
+                plusNumbers();
+                break;
+            case 5: 
+           return;    
+        }
+
+        }
+        function sumOfNumber(){
+            alert(array.reduce((result, numbers) => result + numbers, 0));
+        }
+
+        function avarage(){
+            alert(array.reduce((result, numbers) => result + numbers/ array.length));
+        }
+
+        function diapazone() {
+            let num1 = +prompt("san jaziniz");
+            let num2 = +prompt("san jaziniz");
+
+            alert(array.filter((numbers) => numbers > num1 && numbers < num2));
+        }
+        function plusNumbers(){
+            alert(array.filter((numbers) => numbers > 0));
+        }
+        menu();
+    </script>
+</body>
+</html>

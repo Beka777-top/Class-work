@@ -1,0 +1,69 @@
+.div1
+{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    border: black 1px solid;
+}
+
+.div1:hover
+{
+    background: #ffa0a0;
+    width: 200px;
+    height: 200px;
+}
+.border
+{
+    width: 200px;
+    border: 1px rgb(255, 171, 171) solid;
+    height: 100px;
+    width: 400px;
+}
+.red 
+{
+    background: red;
+    border: 1px black solid;
+    border-radius: 900px;
+    width: 95px;
+    height: 95px;
+    transform: rotate(20deg);
+    animation-duration: initial;
+}
+.div2 
+{
+    border: 20px rgb(202, 202, 202) solid;
+    width: 200px;
+    border-radius: 999px;
+    animation-duration: div2;
+}
+@keyframes div2
+{
+    0%
+    {
+        transform: rotate(30deg);
+    }
+    50%
+    {
+        transform: 60deg;
+    }
+    100%
+    {
+        transform: 360deg;
+    }
+}
+img
+{
+    width: 150px;
+    height: 150px;
+}
+@keyframes image
+{
+    50%
+    {
+        rotate: 60px;
+    }
+    100%
+    {
+        rotate: 360px;
+    }
+}

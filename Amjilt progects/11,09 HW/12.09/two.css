@@ -1,0 +1,13 @@
+.one
+{ 
+    height: 220px;
+    width: 270px;
+    object-fit: cover;
+    border: 5px black solid;
+    }
+    .one:hover
+    {
+        height: 250px;
+        width: 300px;
+
+    }

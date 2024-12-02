@@ -1,0 +1,14 @@
+.one
+{ font-family: Arial, Helvetica, sans-serif;
+{color: red;}
+body
+{
+    background-color: rgb(200, 247, 247);
+}
+.three
+{text-decoration: underline;}
+.four
+{
+    color: red;
+    letter-spacing: 2px;
+}

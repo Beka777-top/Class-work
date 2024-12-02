@@ -1,0 +1,20 @@
+.conteiner
+{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    perspective: 300px;
+}
+.image
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transition: transform 2s;
+}
+.image:hover
+{
+    transform: rotateX(50deg) skewY(10deg);
+}

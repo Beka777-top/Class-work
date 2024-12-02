@@ -1,0 +1,153 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    background-color: black;
+    font-size: 16px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header h1
+{
+    color: white;
+    font-size: 1.2em;
+    text-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+}
+header nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr );
+    gap: 5px;
+    padding: 10px;
+}
+body
+{
+    background-color: rgb(225, 230, 228);
+}
+.card
+{
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.card h1
+{
+    font-size: 1em;
+}
+.card p
+{
+    font-size: 0.8em;
+}
+.card img
+{
+    width: 100%;
+}
+@media (min-width:400px)
+{
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 7px;
+    }
+    .card
+    {
+        font-size: 25px;
+    }
+    header h1 
+    {
+        width: 50%;
+        text-align: start;
+    }
+}
+@media (min-width: 768px )
+{
+    .grid-container {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+    .card
+    {
+        font-size: 25px;
+    }
+}
+footer
+{
+    background-color: rgb(65, 65, 65);
+    font-size: 16px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+footer nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+footer h1
+{
+    color: white;
+    font-size: 1.8em;
+    text-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+}
+footer p
+{
+    color: white;
+    font-size: 1.2em;
+}
+footer h4
+{
+    color: rgb(183, 180, 180);
+    font-size: 1.2em;
+}
+.div
+{
+    justify-content: space-between;
+}
+.footer-div1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+@media (min-width:400px){
+    .footer-div1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    footer h1 
+    {
+        width: 50%;
+        text-align: start;
+    }
+    .div1 {
+        font-size: 15px;
+    }
+}

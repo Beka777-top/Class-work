@@ -1,0 +1,23 @@
+body
+{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150px;
+    font-style: normal;
+}
+.img
+{
+    height: 350px;
+    width: 350px;
+    border-width: 350px;
+    border: 7px dotted chocolate;
+    border-radius: 999px;
+    object-fit: cover;
+    box-shadow: 25px 10px greenyellow;
+}   
+.заказ
+{
+    color: aliceblue;
+    background-color: chocolate;
+    border-radius: 200px;
+}

@@ -1,0 +1,25 @@
+
+div
+{
+    width: 250px;
+    height: 250px;
+    background: #fd6666;
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    animation: up-down 5s infinite;
+}
+@keyframes up-down{
+    0% {
+        top: 100px;
+  
+    }
+    50%{
+        top: 500px;
+        transform: rotatex(100deg);
+    }
+    100% {
+        top: 100px;
+        transform: rotatex(200deg);
+    }
+}

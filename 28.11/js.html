@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let array = [];
+
+const fillArray = (arr) => {
+    while (true){
+        let thing = prompt("engiz")        
+        if(thing === "stop") break;
+        if (isNaN(Number(thing))){
+            arr.push(thing);
+        }else {
+            arr.push(Number(thing));
+        }
+    }
+    return arr;
+}
+
+
+        let array = fillArray ([]);
+
+        let brand = prompt("brand ");
+
+        function price(array, price){
+            return array.filter((tauar) => tauar < price);
+        }
+        console.log(price(array, number));
+        console.log(price(array, number));
+        
+    </script>
+</body>
+</html>

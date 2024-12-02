@@ -1,0 +1,65 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside
+{
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px;
+}
+aside h1
+{
+    color: white;
+    padding: 10px;
+}
+
+main
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+}
+.playback
+{
+    width: 350px;
+    border-radius: 15px;
+}
+.navv a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.videoo
+{
+    position: relative;
+}
+.videoo h1
+{
+    position: absolute;
+    color: antiquewhite;
+    left: 100px;
+    top: 20%;
+    background: -webkit-linear-gradient(147deg, #FFE53B 0%, #FF2525 74%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+.keste
+{
+    border-radius: 7px;
+    border-spacing: 0px;
+
+}
+.keste th, td {
+    border: rgb(0, 0, 0) solid 1px;
+}
