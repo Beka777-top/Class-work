@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const users = [
+            { name: 'Alia', age: 28},
+            { name : 'Bayirjan', age: 32},
+            { name: 'Beibarys', age: 21},
+        ];
+
+        function years (){
+            return users.filter((user) => user.age > 30);
+        }
+        console.log(years());
+        function sort(){
+            return users.sort((a, b) => a.age - b.age);
+        }
+        console.log(sort());
+    </script>
+</body>
+</html>

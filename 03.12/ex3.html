@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const grup ={
+            name: "24/5",
+            subjects: [
+            {name: "Asilbec", age:14, sub:["Информатика", "ДШ"]},
+            {name: "Islam", age: 13, sub:["ДШ", "Физика"]},
+            {name: "Nurislam", age:14, sub:["ДШ","енбек"]},
+            {name: "Yldana", age:16, sub:["Информатика", "Биология"]},
+            {name: "Aia", age:18, sub:["Химия","Тарих"]},
+            {name: "Ayganim", age:14, sub:["ДШ", "Ағылшын"]},
+            {name:"Bakbergen", age:13, sub:["ДШ","Информатика"]},
+            {name:"Alikhan", age:15, sub:["ДШ","Информатика"]},
+            {name:"Kaisar", age:13, sub:["Ағылшын","Физика"]},
+            {name:"Muhametali", age:22, sub:["ДШ", "Ағылшын"]},
+            ],
+        }
+        function joinAllSubjects(){
+            return grup.subjects.flatMap((subject) => subject.sub);
+        }
+        console.log(joinAllSubjects());
+    </script>
+</body>
+</html>
