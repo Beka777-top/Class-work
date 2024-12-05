@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const person ={
+        //     name: "Asanali",
+        //     age: 21,
+        //     hobby:"Draming"
+        // };
+
+        // const{name, age, hobby} = person;
+        // console.log(name);
+        // console.log(age);
+        // console.log(hobby);
+
+        // const numbers =[1, 2, 3, 4, 5];
+
+        // const [a, b, c, d, e,] = numbers;
+        // console.log(a);
+        // console.log(b);
+        // console.log(c);
+
+
+
+
+
+        // const obj1 = {name: "Asanali", age: 21};
+        // const obj2 = { ...obj1, hobby: "Drawing"};
+        // console.log(obj2);
+
+
+
+
+
+
+        // const author ={
+        //     name: "Muktar Auezov",
+        //     year:1897,
+        // };
+        // const book ={
+        //     title:"Abali joly",
+        //     pages:300,
+        //     author:{...author}
+        // }
+        // console.log(book);
+
+
+
+
+
+        // const arr1 = [1, 2, 3];
+        // const arr2 = [4, 5];
+        // const arr3 = [...arr1, ...arr2];
+        // console.log(arr3);
+
+
+
+
+
+
+
+        // const obj1 = {
+        //     name:"Name a",
+        //     age: 19,
+        //     hobbies: ["Drawing", "Swiming", "Joggin"],
+        // };
+        // const{hobbies, ...user} = obj1;
+        // console.log(hobbies);
+        // console.log(user);
+
+
+
+
+        // const [a, ... rest] = [1, 2, 3, 4];
+        // console.log(a);
+        // console.log(rest);
+
+
+
+
+        // const book = {
+        // title: "Abai joli",
+        // author: "Mukhtat Auezov", 
+        // year: 1942
+        // };
+
+        // const {title, author, year} = book;
+        // console.log(title);
+        // console.log(author);
+        // console.log(year);
+
+
+
+
+    //  const fruits = ["Alma" , "Almyrt" , "Jie"];
+    //  const [a, ...b] = fruits
+    //  console.log(a);
+    //  console.log(b);
+
+
+
+
+    // const arr1 = [1, 2, 3];
+    // const arr2 = [4, 5, 6];
+    // const arr3 = [...arr1, ...arr2];
+    // console.log(arr3);
+
+
+
+
+    // const user = {name: "Ali", age: 25};
+    // const hobbies = {... user, hobby:"Footboll"};
+    // console.log(hobbies);
+
+
+
+    // const user = {
+    //     name:"Aizan",
+    //     age: 25,
+    //     profession:"Mugalim",
+    // };
+    // function esep(){
+    //     return(
+    //        "Salem menin atim " + user.name + ". Jasim " + user.age + "-te " + user.profession + " jumis istim"
+    //     )
+    // }
+    // console.log(esep());
+
+
+
+        // const user = {
+        //     name:"Aizan",
+        //     firends:["Dias", "Meriuert", "ALmas"],
+        // };
+        // function addFirends(){
+        //     while(true){
+        //         var names = prompt("Atyn jaz");
+        //     if (names == "stop"){
+        //         break;
+        //     }else{
+        //         user.firends.push(names);
+        //     }
+        //     }
+        // }
+        // addFirends();
+        // console.log(user.firends);
+
+
+
+
+        // const group = {
+        //     name: "",
+        //     students: [
+        //         {name: "Students A", age: 15, score: [100, 79, 65]},
+        //         {name: "Students A", age: 16, score: [100, 79, 65]},
+        //         {name: "Students A", age: 17, score: [100, 79, 65]},
+        //         {name: "Students A", age: 10, score: [100, 79, 65]},
+        //     ],
+        // };
+        // function findAvarageScore(){
+        //     return (
+        //         group.students[3].score.reduce((sum, num) => sum + num, 0)/
+        //         group.students[3].score.length
+        //     )
+        //     }
+        //     console.log(findAvarageScore());
+
+
+        //     function ageStudents(){
+        //         return(
+        //             group.students.reduce((sum, num) => sum + num.age, 0)/
+        //             group.students.length
+        //         )
+        //     }
+        //     console.log(ageStudents());
+
+
+
+
+        const library ={
+            name: "alatau HUB",
+            books:[
+                {name: "book a", pages: 300 },
+                {name: "book b", pages: 100 },
+                {name: "book c", pages: 340 },
+                {name: "book d", pages: 1000 },
+            ],
+        };
+
+        function findAvaragePages (){
+            return(
+                library.books.reduce((sum, num) => sum + num.pages, 0)/
+                library.books.length
+            )
+        }
+        console.log(findAvaragePages(   ))
+    </script>
+</body>
+</html>
