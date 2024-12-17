@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="top">Жоғарғы нүкте</h1>
+    <div class="container">
+        <div id="errorMessage">Қате</div>
+        <form id="request">
+            <h1>Заявка</h1>
+            <input type="text" id="name" placeholder="Атыңыз">
+            <input type="text" id="phone" placeholder="Телефон номеріңіз">
+
+            <select id="problem">
+                <option value="" disabled selected>---</option>
+                <option value="bailanis">Байланыс жок</option>
+                <option value="internet">Интернет баяу</option>
+                <option value="tv">Телевизор жасамайды</option>
+            </select>
+            <textarea id="comment"></textarea>
+
+            <button type="submit">Жіберу</button>
+        </form>
+    </div>
+
+    <a id="arrowUp" href="#top">UP</a>
+    
+    <script src="script.js"></script>
+</body>
+</html>

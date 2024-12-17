@@ -11,7 +11,7 @@ switch (students) {
             case 3:
                 ortashaball();
                 break;
-                case 4:
+                case 4: 
                    sortStudents();
                     break;
                     case 5:
