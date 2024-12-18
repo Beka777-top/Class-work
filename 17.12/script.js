@@ -33,4 +33,14 @@ window.addEventListener("scroll", () => {
 
 
 
+const head = document.getElementById("head");
 
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 100){
+        head.style.background = "white";
+        head.style.width ="95%";
+    }else{
+        head.style.background = "gray"
+        head.style.width ="85%";
+    }
+})

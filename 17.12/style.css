@@ -52,3 +52,37 @@ body{
     left: 10px;
     display: none;
 }
+
+
+
+
+
+
+header{
+    margin-left: 20px;
+    margin-right: 20px;
+    background: gray;
+    padding: 20px;
+    display: flex;
+    border-radius: 200px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.singUp{
+    background: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.singIn{
+    background: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
